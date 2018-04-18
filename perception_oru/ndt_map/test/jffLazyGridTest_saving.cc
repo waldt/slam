@@ -39,6 +39,7 @@ int main (int argc, char** argv) {
     nd.computeNDTCells();
 
     //nd.writeToVRML(fname);
+    //only one cloud
 
     if (nd.writeToJFF("LazyGrid.jff") < 0)
         cout << "writing to jff failed\n";
